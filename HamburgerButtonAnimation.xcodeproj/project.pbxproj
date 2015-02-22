@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD3D277F1A96168100653ED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3D277E1A96168100653ED8 /* main.m */; };
+		DD3D27821A96168100653ED8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3D27811A96168100653ED8 /* AppDelegate.m */; };
+		DD3D27851A96168100653ED8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3D27841A96168100653ED8 /* ViewController.m */; };
+		DD3D27881A96168100653ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3D27861A96168100653ED8 /* Main.storyboard */; };
+		DD3D278A1A96168100653ED8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3D27891A96168100653ED8 /* Images.xcassets */; };
+		DD3D278D1A96168100653ED8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3D278B1A96168100653ED8 /* LaunchScreen.xib */; };
+		DD3D27991A96168100653ED8 /* HamburgerButtonAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3D27981A96168100653ED8 /* HamburgerButtonAnimationTests.m */; };
+		DD79B5021A99BC4600EC7BC3 /* HamburgerButtonOne.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79B5011A99BC4600EC7BC3 /* HamburgerButtonOne.m */; };
+		DD79B5051A99BE0E00EC7BC3 /* HamburgerButtonTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79B5041A99BE0E00EC7BC3 /* HamburgerButtonTwo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD3D27931A96168100653ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD3D27711A96168100653ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3D27781A96168100653ED8;
+			remoteInfo = HamburgerButtonAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD3D27791A96168100653ED8 /* HamburgerButtonAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamburgerButtonAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3D277D1A96168100653ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3D277E1A96168100653ED8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD3D27801A96168100653ED8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD3D27811A96168100653ED8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD3D27831A96168100653ED8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD3D27841A96168100653ED8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD3D27871A96168100653ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD3D27891A96168100653ED8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD3D278C1A96168100653ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD3D27921A96168100653ED8 /* HamburgerButtonAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburgerButtonAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3D27971A96168100653ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3D27981A96168100653ED8 /* HamburgerButtonAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamburgerButtonAnimationTests.m; sourceTree = "<group>"; };
+		DD79B5001A99BC4600EC7BC3 /* HamburgerButtonOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamburgerButtonOne.h; sourceTree = "<group>"; };
+		DD79B5011A99BC4600EC7BC3 /* HamburgerButtonOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HamburgerButtonOne.m; sourceTree = "<group>"; };
+		DD79B5031A99BE0E00EC7BC3 /* HamburgerButtonTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamburgerButtonTwo.h; sourceTree = "<group>"; };
+		DD79B5041A99BE0E00EC7BC3 /* HamburgerButtonTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HamburgerButtonTwo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD3D27761A96168100653ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3D278F1A96168100653ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD3D27701A96168100653ED8 = {
+			isa = PBXGroup;
+			children = (
+				DD3D277B1A96168100653ED8 /* HamburgerButtonAnimation */,
+				DD3D27951A96168100653ED8 /* HamburgerButtonAnimationTests */,
+				DD3D277A1A96168100653ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD3D277A1A96168100653ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD3D27791A96168100653ED8 /* HamburgerButtonAnimation.app */,
+				DD3D27921A96168100653ED8 /* HamburgerButtonAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD3D277B1A96168100653ED8 /* HamburgerButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DD3D27801A96168100653ED8 /* AppDelegate.h */,
+				DD3D27811A96168100653ED8 /* AppDelegate.m */,
+				DD3D27831A96168100653ED8 /* ViewController.h */,
+				DD3D27841A96168100653ED8 /* ViewController.m */,
+				DD3D27861A96168100653ED8 /* Main.storyboard */,
+				DD79B5001A99BC4600EC7BC3 /* HamburgerButtonOne.h */,
+				DD79B5011A99BC4600EC7BC3 /* HamburgerButtonOne.m */,
+				DD79B5031A99BE0E00EC7BC3 /* HamburgerButtonTwo.h */,
+				DD79B5041A99BE0E00EC7BC3 /* HamburgerButtonTwo.m */,
+				DD3D27891A96168100653ED8 /* Images.xcassets */,
+				DD3D278B1A96168100653ED8 /* LaunchScreen.xib */,
+				DD3D277C1A96168100653ED8 /* Supporting Files */,
+			);
+			path = HamburgerButtonAnimation;
+			sourceTree = "<group>";
+		};
+		DD3D277C1A96168100653ED8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3D277D1A96168100653ED8 /* Info.plist */,
+				DD3D277E1A96168100653ED8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD3D27951A96168100653ED8 /* HamburgerButtonAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD3D27981A96168100653ED8 /* HamburgerButtonAnimationTests.m */,
+				DD3D27961A96168100653ED8 /* Supporting Files */,
+			);
+			path = HamburgerButtonAnimationTests;
+			sourceTree = "<group>";
+		};
+		DD3D27961A96168100653ED8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3D27971A96168100653ED8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD3D27781A96168100653ED8 /* HamburgerButtonAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3D279C1A96168100653ED8 /* Build configuration list for PBXNativeTarget "HamburgerButtonAnimation" */;
+			buildPhases = (
+				DD3D27751A96168100653ED8 /* Sources */,
+				DD3D27761A96168100653ED8 /* Frameworks */,
+				DD3D27771A96168100653ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamburgerButtonAnimation;
+			productName = HamburgerButtonAnimation;
+			productReference = DD3D27791A96168100653ED8 /* HamburgerButtonAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD3D27911A96168100653ED8 /* HamburgerButtonAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3D279F1A96168100653ED8 /* Build configuration list for PBXNativeTarget "HamburgerButtonAnimationTests" */;
+			buildPhases = (
+				DD3D278E1A96168100653ED8 /* Sources */,
+				DD3D278F1A96168100653ED8 /* Frameworks */,
+				DD3D27901A96168100653ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD3D27941A96168100653ED8 /* PBXTargetDependency */,
+			);
+			name = HamburgerButtonAnimationTests;
+			productName = HamburgerButtonAnimationTests;
+			productReference = DD3D27921A96168100653ED8 /* HamburgerButtonAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD3D27711A96168100653ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = YingshanDeng;
+				TargetAttributes = {
+					DD3D27781A96168100653ED8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DD3D27911A96168100653ED8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DD3D27781A96168100653ED8;
+					};
+				};
+			};
+			buildConfigurationList = DD3D27741A96168100653ED8 /* Build configuration list for PBXProject "HamburgerButtonAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD3D27701A96168100653ED8;
+			productRefGroup = DD3D277A1A96168100653ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD3D27781A96168100653ED8 /* HamburgerButtonAnimation */,
+				DD3D27911A96168100653ED8 /* HamburgerButtonAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD3D27771A96168100653ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3D27881A96168100653ED8 /* Main.storyboard in Resources */,
+				DD3D278D1A96168100653ED8 /* LaunchScreen.xib in Resources */,
+				DD3D278A1A96168100653ED8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3D27901A96168100653ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD3D27751A96168100653ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD79B5051A99BE0E00EC7BC3 /* HamburgerButtonTwo.m in Sources */,
+				DD3D27851A96168100653ED8 /* ViewController.m in Sources */,
+				DD3D27821A96168100653ED8 /* AppDelegate.m in Sources */,
+				DD3D277F1A96168100653ED8 /* main.m in Sources */,
+				DD79B5021A99BC4600EC7BC3 /* HamburgerButtonOne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3D278E1A96168100653ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3D27991A96168100653ED8 /* HamburgerButtonAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD3D27941A96168100653ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD3D27781A96168100653ED8 /* HamburgerButtonAnimation */;
+			targetProxy = DD3D27931A96168100653ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD3D27861A96168100653ED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3D27871A96168100653ED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD3D278B1A96168100653ED8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3D278C1A96168100653ED8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD3D279A1A96168100653ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD3D279B1A96168100653ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD3D279D1A96168100653ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HamburgerButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD3D279E1A96168100653ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HamburgerButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD3D27A01A96168100653ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HamburgerButtonAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamburgerButtonAnimation.app/HamburgerButtonAnimation";
+			};
+			name = Debug;
+		};
+		DD3D27A11A96168100653ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HamburgerButtonAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamburgerButtonAnimation.app/HamburgerButtonAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD3D27741A96168100653ED8 /* Build configuration list for PBXProject "HamburgerButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3D279A1A96168100653ED8 /* Debug */,
+				DD3D279B1A96168100653ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3D279C1A96168100653ED8 /* Build configuration list for PBXNativeTarget "HamburgerButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3D279D1A96168100653ED8 /* Debug */,
+				DD3D279E1A96168100653ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3D279F1A96168100653ED8 /* Build configuration list for PBXNativeTarget "HamburgerButtonAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3D27A01A96168100653ED8 /* Debug */,
+				DD3D27A11A96168100653ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD3D27711A96168100653ED8 /* Project object */;
+}
