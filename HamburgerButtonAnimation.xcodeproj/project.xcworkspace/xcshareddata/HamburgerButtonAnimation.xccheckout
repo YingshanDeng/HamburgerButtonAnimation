@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>20B93B10-4829-42C1-AA74-4DFE35B3A947</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HamburgerButtonAnimation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>14DF489010BCF1DD3A993FEC8D7C99C54F0BE637</key>
+		<string>github.com:YingshanDeng/HamburgerButtonAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HamburgerButtonAnimation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>14DF489010BCF1DD3A993FEC8D7C99C54F0BE637</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:YingshanDeng/HamburgerButtonAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>14DF489010BCF1DD3A993FEC8D7C99C54F0BE637</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>14DF489010BCF1DD3A993FEC8D7C99C54F0BE637</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HamburgerButtonAnimation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
